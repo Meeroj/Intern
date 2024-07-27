@@ -7,8 +7,8 @@ import { Star } from "@mui/icons-material";
 import FavoriteSharpIcon from "@mui/icons-material/FavoriteSharp";
 import FavoriteBorderSharpIcon from "@mui/icons-material/FavoriteBorderSharp";
 import { Typography } from "@mui/material";
-import { deleteFavourites, addCartItem, removeCartItem, addFavourites } from '@/redux/cart.slice';
-import { RootState } from "@/redux/store"; // Add RootState import
+import { deleteFavourites, addCartItem, removeCartItem, addFavourites } from '../../../redux/cart.slice';
+import { RootState } from "../../..//redux/store"; // Add RootState import
 
 interface Product {
   id: number;

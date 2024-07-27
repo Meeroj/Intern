@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import axios from "axios";
 import Loader from "../UI/Loader";
 import { Clear } from "@mui/icons-material";
-import { useDebounce } from "@/hooks/useBebounce";
+import { useDebounce } from "../../hooks/useBebounce";
 
 interface SearchInputProps {
   className?: string;

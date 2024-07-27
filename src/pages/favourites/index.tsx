@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { RootState } from '@/redux/store'; // Update with your actual path
-import { deleteFavourites, addCartItem, removeCartItem, addFavourites } from '@/redux/cart.slice';
+import { RootState } from '../../redux/store'; // Update with your actual path
+import { deleteFavourites, addCartItem, removeCartItem, addFavourites } from '../../redux/cart.slice';
 import FavoriteSharpIcon from '@mui/icons-material/FavoriteSharp';
 import FavoriteBorderSharpIcon from '@mui/icons-material/FavoriteBorderSharp'; // Import this icon
 import { Typography } from '@mui/material';
