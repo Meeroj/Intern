@@ -12,11 +12,11 @@
     <br />
     <br />
     <br />
-    <a href="https://github.com/meeroj/interntask">View Demo</a>
+    <a href="https://github.com/meeroj/Intern">View Demo</a>
     ·
-    <a href="https://github.com/meerj/interntask/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/meerj/Intern/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/meeroj/interntask/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/meeroj/Intern/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
@@ -82,7 +82,7 @@ To get a local copy up and running follow these simple example steps.
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/meeroj/interntask.git
+    git clone https://github.com/meeroj/Intern.git
     cd your_project
     ```
 
@@ -150,7 +150,7 @@ Contributions are welcome and greatly appreciated! If you have suggestions or im
 ## Contact
 
 
-Project Link: [https://github.com/meeroj/interntask](https://github.com/meeroj/interntask)
+Project Link: [https://github.com/meeroj/Intern](https://github.com/meeroj/Intern)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
