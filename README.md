@@ -1,15 +1,6 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
 
-<!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
 
@@ -73,13 +64,6 @@
 
 ### Built With
 
-- [![Next.js][Next.js]][Next-url]
-- [![TypeScript][TypeScript]][TypeScript-url]
-- [![Material UI][Material-UI]][Material-UI-url]
-- [![Tailwind CSS][TailwindCSS]][TailwindCSS-url]
-- [![Redux][Redux]][Redux-url]
-- [![Axios][Axios]][Axios-url]
-- [![React Hook Form][React-Hook-Form]][React-Hook-Form-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
