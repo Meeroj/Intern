@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import CloseIcon from "@mui/icons-material/Close";
 import MenuIcon from "@mui/icons-material/Menu";
-import { productsCategories } from "@/services/productsService";
+import { productsCategories } from "../../services/productsService"
 import Link from "next/link";
 import { useDispatch } from "react-redux";
-import { changeCategory } from "@/redux/category.slice";
+import { changeCategory } from "../../redux/category.slice"
 import SearchInput from "../Header/SearchInput";
 import { useRouter } from "next/router"; // Corrected import
 

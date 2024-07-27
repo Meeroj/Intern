@@ -5,10 +5,10 @@ import FavoriteSharpIcon from "@mui/icons-material/FavoriteSharp";
 import Image from "next/image";
 import Router from "next/router";
 import { useDispatch, useSelector } from "react-redux";
-import { addCartItem, addFavourites, deleteFavourites, removeCartItem } from "@/redux/cart.slice";
-import { fetchProducts } from "@/services/productsService";
+import { addCartItem, addFavourites, deleteFavourites, removeCartItem } from "../..//redux/cart.slice";
+import { fetchProducts } from "../../services/productsService";
 import { Typography } from "@mui/material";
-import Filter from "@/components/Filter";
+import Filter from "../../components/Filter";
 import Pagination from "../Pagination";
 
 const HomePage: React.FC = () => {

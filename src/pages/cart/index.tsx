@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { addCartItem, clearCart, deleteCartItem, removeCartItem } from '@/redux/cart.slice';
+import { addCartItem, clearCart, deleteCartItem, removeCartItem } from '../../redux/cart.slice';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Link from 'next/link';
-import { RootState } from '@/redux/store';
+import { RootState } from '../../redux/store';
 
 interface CartItem {
   id: number;

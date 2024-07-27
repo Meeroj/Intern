@@ -1,12 +1,12 @@
-import "@/styles/globals.css";
+import "../styles/globals.css";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
-import { persistor, store } from "@/redux/store";
-import MainLayout from "@/components/Layouts/MainLayout";
+import { persistor, store } from "../redux/store";
+import MainLayout from "../components/Layouts/MainLayout";
 import { ThemeProvider, useTheme } from "next-themes";
 import { AppProps } from 'next/app';
 import { useEffect } from "react";
-import { ProductProvider } from "@/context/ProductContext";
+import { ProductProvider } from "../context/ProductContext";
 
 const App: React.FC<AppProps> = ({ Component, pageProps }) => {
   const { theme, setTheme } = useTheme();
